@@ -1,0 +1,39 @@
+[
+    {
+        "Batch Name":"PHY 8 B",
+        "students":"100",
+        "Date":"Thu 25th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"CHEM 8 B",
+        "students":"60",
+        "Date":"Thu 25th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"PHY 10 A",
+        "students":"90",
+        "Date":"Thu 25th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"PHY 11 A",
+        "students":"30",
+        "Date":"Thu 26th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"PHY 12 A",
+        "students":"150",
+        "Date":"Thu 27th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"EVS 6 B",
+        "students":"40",
+        "Date":"Thu 25th MAy, 2020"
+
+    }
+
+]

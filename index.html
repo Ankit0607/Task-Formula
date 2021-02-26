@@ -1,0 +1,2679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Task @ Formula</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <style>
+        .navbar-custom {
+            background-color: purple;
+        }
+
+        /* change the brand and text color */
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-text {
+            color: rgba(255, 255, 255, .8);
+        }
+
+        /* change the link color */
+        .navbar-custom .navbar-nav .nav-link {
+            color: rgba(255, 255, 255, .5);
+        }
+
+        /* change the color of active or hovered links */
+        .navbar-custom .nav-item.active .nav-link,
+        .navbar-custom .nav-item:hover .nav-link {
+            color: #ffffff;
+        }
+
+        .hr {
+            margin: 20px;
+            overflow: hidden;
+            color: gray;
+            text-align: left;
+            line-height: 1.8em;
+        }
+
+        .hr:before {
+            display: block;
+            float: right;
+            margin-top: .8em;
+            /* half the line-height */
+            border-top: 3px solid silver;
+            width: 85%;
+            content: "";
+        }
+
+        .badge {
+            border-radius: 5;
+            font-size: 15px;
+            line-height: 1.2;
+            padding: .575rem .5625rem;
+            text-align: center;
+            font-weight: bolder
+        }
+
+        .badge-outline-primary {
+            color: rgba(255, 255, 255, .8);
+            border: 1px solid red
+        }
+
+        .badge.badge-pill {
+            border-radius: 10rem
+        }
+
+        .badge-outline-info {
+            color: #3da5f4;
+            border: 1px solid #3da5f4
+        }
+    </style>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Show More";
+                moreText.style.display = "none";
+                style.backgroundColor = 'Purple';
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Show Less";
+                moreText.style.display = "inline";
+            }
+        }
+
+        function myFunction1() {
+            var dots = document.getElementById("dots1");
+            var moreText = document.getElementById("more1");
+            var btnText = document.getElementById("myBtn1");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Show More";
+                moreText.style.display = "none";
+                style.backgroundColor = 'Purple';
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Show Less";
+                moreText.style.display = "inline";
+            }
+        }
+
+        function myFunction2() {
+            var dots = document.getElementById("dots2");
+            var moreText = document.getElementById("more2");
+            var btnText = document.getElementById("myBtn2");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Show More";
+                moreText.style.display = "none";
+                style.backgroundColor = 'Purple';
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Show Less";
+                moreText.style.display = "inline";
+            }
+        }
+        function myFunction3() {
+            var dots = document.getElementById("dots3");
+            var moreText = document.getElementById("more3");
+            var btnText = document.getElementById("myBtn3");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Show More";
+                moreText.style.display = "none";
+                style.backgroundColor = 'Purple';
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Show Less";
+                moreText.style.display = "inline";
+            }
+        }
+        function myFunction4() {
+            var dots = document.getElementById("dots4");
+            var moreText = document.getElementById("more4");
+            var btnText = document.getElementById("myBtn4");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Show More";
+                moreText.style.display = "none";
+                style.backgroundColor = 'Purple';
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Show Less";
+                moreText.style.display = "inline";
+            }
+        }
+
+        function ChangeColor() {
+            document.getElementById('myBtn').style.backgroundColor = 'Red';
+        }
+    </script>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav navbar-custom sidebar  accordion" id="accordionSidebar">
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink navbar-text"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3 navbar-text">My College name logo </div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-1" style="background-color: rgba(255,255,255,.8);">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fa fa-users "></i>
+                    <span>Batches</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fa fa-users "></i>
+                    <span>Manage Staff</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fa fa-users "></i>
+                    <span>Fee Summary</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fa fa-users "></i>
+                    <span>Institute Profile</span></a>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider" style="background-color: rgba(255,255,255,.8);">
+
+            <!-- Heading -->
+
+
+            <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="far fa-comment-alt "></i>
+                    <span>Direct Messages</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fab fa-slack-hash    "></i>
+                    <span>Mentions</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-bookmark "></i>
+                    <span>Bookmarked Items</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link active collapsed navbar-text" href="#" data-toggle="collapse"
+                    data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fa fa-plus    "></i>
+                    <span>Department </span>
+                </a>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class=" py-2 collapse-inner rounded nav-link active">
+                        <button style="background-color: greenyellow; border-color: greenyellow; border-radius: 5px; color: white; font-weight: bold;"
+                            class=" nav-text">A</button><span> Accountant</span><br><br>
+                        <button
+                            style="background-color: orangered; border-color:orangered; border-radius: 5px;color: white; font-weight: bold;">P</button>
+                        Physics 10<br><br>
+                        <button
+                            style="background-color:rgb(7, 165, 228); border-color: rgb(7, 165, 228); border-radius: 5px;color: white; font-weight: bold;">E</button>
+                        E V S<br><br>
+
+                        <button style="background-color: greenyellow; border-color: greenyellow; border-radius: 5px; color: white; font-weight: bold;"
+                        class=" nav-text">C</button><span> Chemistery</span><br><br>
+                    <button
+                        style="background-color: orangered; border-color:orangered; border-radius: 5px;color: white; font-weight: bold;">E</button>
+                    English<br><br>
+                    <button
+                        style="background-color:rgb(7, 165, 228); border-color: rgb(7, 165, 228); border-radius: 5px;color: white; font-weight: bold;">S</button>
+                    Science<br><br>
+
+
+
+                    </div>
+                </div>
+            </li>
+
+
+            <!-- <hr class="sidebar-divider"> -->
+
+
+
+
+
+
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Topbar -->
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                    <!-- Topbar Search -->
+                    <h1 class="h4 mb-2 text-gray-800" style="margin-left: 50px;">Manage Staff</h1>
+
+                    <!-- Topbar Navbar -->
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                        
+
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+
+
+                        </li>
+
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown no-arrow mx-1">
+
+                        </li>
+
+                        <div class="topbar-divider d-none d-sm-block"></div>
+
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown no-arrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="img-profile rounded-circle" src="img/undraw_profile.svg">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                                    Logout
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- End of Topbar -->
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+
+                    <div class="d-lg-flex align-items-center justify-content-between mb-4">
+                        <form
+                            class="d-none d-lg-inline-block form-inline mr-auto ml-lg-8 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <input type="text" class="form-control  border-0 small"
+                                        placeholder="Search for... "aria-label="Search" aria-describedby="basic-addon2"
+                                style="border-radius:30px; border-color: slategray; width: 30rem; border-width: 10px;"focused="true" >
+                                    </div>
+                                    
+                                </div>
+                                <a href="#" class="btn btn-light align-right"
+                                    style="border-color: gray; margin-left: 50px; "><i class="fa fa-filter fa-fw"></i>
+                                    Filters <span class="badge badge-success"
+                                        style="border-radius: 100px; width:30px; height:30px; text-align: inherit;">12</span></a>
+                                
+                        </div>
+                                
+                                <a href="#" class="btn btn-light float-right text-right"
+                                    style="border-color:blue; margin-left:50rem; text-align: right;margin-top: -40px;"><i class="fa fa-plus fa-fw"
+                                        style="color: blue;"></i>
+                                    <span style="color:blue; text-align: center;">New Subject</span></a>
+                            
+                        </form>
+
+
+                    </div>
+                    <div class="hr h5 mb-0 text-gray-800">My Batches</div>
+                    <!-- Content Row -->
+                    <div class="row">
+
+
+
+                        <!-- Content Row -->
+
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-7">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row" style="margin-top: 20px;">
+
+                        <!-- Content Column -->
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name PHY
+                                        8B </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-book " style="float:left;"></i>
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Physics, 8th CBSE
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                100 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name CHEM
+                                        8B </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-book " style="float:left;"></i>
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Chemistery, 8th CBSE
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                60 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name PHY
+                                        10 A </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-book " style="float:left;"></i>
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Physics, 10th CBSE
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                90 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,2:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- button  -->
+                    <div class="collapse" id="collapseExample">
+                        <span id="dots"></span><span id="more">
+                            <!-- button close -->
+                            <div class="row">
+
+                                <!-- Content Column -->
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name PHY 11 A </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-book " style="float:left;"></i>
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Physics,
+                                                        11th CBSE </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 30 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 26th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name PHY 12 A </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-book " style="float:left;"></i>
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Mathematics,
+                                                        12th CBSE </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 150 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 27th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name EVS 6 B </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-book " style="float:left;"></i>
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> E V S,
+                                                        6th CBSE </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 40 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 24th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <button class="btn btn-primary align-middle" type="button" data-toggle="collapse"
+                        data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                        onclick="myFunction()" onclick="changeColor()" id="myBtn"
+                        style="align-items: center; margin-left: 40%; background-color: purple; border-color: purple;">
+                        Show More
+                    </button>
+                    <!-- /.container-fluid -->
+
+                    <div class="hr h5 mb-0 text-gray-800">All Batches</div>
+                    <div class="hr h5 mb-1 text-gray-800" style="margin-top: 20px; width: 70%; margin-left: 10%;">
+
+                        <span>English</span>                           
+                    </div>
+                    <a href="#" class="btn btn-light float-right text-right"
+                                    style="border-color:blue; margin-left:10rem;margin-top: -40px; text-align: center;"><i class="fa fa-plus fa-fw"
+                                        style="color: blue;"></i>
+                                    <span style="color:blue; text-align: center;">New Batch</span></a>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-7">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+
+                        <!-- Content Column -->
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name ENG
+                                        6 A </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                90 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 20th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name ENG
+                                        6 B </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                89 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 3th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name ENG
+                                        9 A </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;">Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                120 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 2th May,1:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- button  -->
+                    <div class="collapse" id="collapseExample1">
+                        <span id="dots1"></span><span id="more1">
+                            <!-- button close -->
+                            <div class="row">
+
+                                <!-- Content Column -->
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name ENG 10 A </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;">Ankit Mishra </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 78 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 22th March,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name ENG 11 A </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 100 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name ENG 12th </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 100 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <button class="btn btn-primary align-middle" type="button" data-toggle="collapse"
+                        data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1"
+                        onclick="myFunction1()" onclick="changeColor()" id="myBtn1"
+                        style="align-items: center; margin-left: 40%; background-color: purple; border-color: purple;">
+                        Show More
+                    </button>
+
+
+                    <div class="hr h5 mb-1 text-gray-800" style="margin-top: 20px; width: 70%; margin-left: 10%;">
+
+                        <span>Physics, 9th</span>                           
+                    </div>
+                    <a href="#" class="btn btn-light float-right text-right"
+                    style="border-color:blue; margin-left:10rem;margin-top: -40px; text-align: center;"><i class="fa fa-plus fa-fw"
+                        style="color: blue;"></i>
+                    <span style="color:blue; text-align: center;">New Batch</span></a>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-7">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+
+                        <!-- Content Column -->
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name PHY
+                                        9 A </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                60 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th March,9:00 AM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name PHY
+                                        9 B </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                90 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name PHY
+                                        9 C </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                100 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- button  -->
+                    <div class="collapse" id="collapseExample4">
+                        <span id="dots4"></span><span id="more4">
+                            <!-- button close -->
+                            <div class="row">
+
+                                <!-- Content Column -->
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name PHY 9 D </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 40 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name PHY 9 E </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 70 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name PHY 9 F </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra</span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 89 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <button class="btn btn-primary align-middle" type="button" data-toggle="collapse"
+                        data-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4"
+                        onclick="myFunction4()" onclick="changeColor()" id="myBtn4"
+                        style="align-items: center; margin-left: 40%; background-color: purple; border-color: purple;">
+                        Show More
+                    </button>
+
+
+                    <div class="hr h5 mb-1 text-gray-800" style="margin-top: 20px; width: 70%; margin-left: 10%;">
+
+                        <span>EVS , 6th</span>                           
+                    </div>
+                    <a href="#" class="btn btn-light float-right text-right"
+                    style="border-color:blue; margin-left:10rem;margin-top: -40px; text-align: center;"><i class="fa fa-plus fa-fw"
+                        style="color: blue;"></i>
+                    <span style="color:blue; text-align: center;">New Batch</span></a>
+                    <div class="row">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-7">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="margin-top: 30px;">
+
+                        <!-- Content Column -->
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name EVS
+                                        6 A </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                30 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name EVS
+                                        6 B </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                40 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-sm-4 mb-4">
+
+                            <!-- Project Card Example -->
+                            <div class="card shadow mb-4"
+                                style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                        style=" background-color: red;">12</div>
+                                </div>
+
+                                <div class="card-body">
+
+                                    <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch Name EVS
+                                        6 C </h4>
+
+                                    <div class="row">
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                            <span style="  font-size: 18px; margin-left: 20px;">Ankit Mishra
+                                            </span><i class="fa fa-edit" style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12"
+                                            style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                            <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                            <span style="text-align: initial; margin-left: 20px; " class="align-middle">
+                                                50 Students </span><i class="fa fa-user-plus "
+                                                style="float:right;"></i>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <h6 class="display-6"
+                                                style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                Mo</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                Tu</div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">We</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Th</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Fr</span></div>
+                                        </div>
+                                        <div class=col-sm-2>
+
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                <span style="color: slategrey;">Sa</span></div>
+                                        </div>
+
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- button  -->
+                    <div class="collapse" id="collapseExample3">
+                        <span id="dots3"></span><span id="more3">
+                            <!-- button close -->
+                            <div class="row">
+
+                                <!-- Content Column -->
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name EVS 6 D </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;">Ankit Mishra </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 70 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name EVS 6 E </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra </span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 80 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-sm-4 mb-4">
+
+                                    <!-- Project Card Example -->
+                                    <div class="card shadow mb-4"
+                                        style="border-radius:30px; border-color: slategray; border-width: 2px;">
+                                        <div class="col-md-12 text-right" style="margin-top:-15px;">
+                                            <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                style=" background-color: red;">12</div>
+                                        </div>
+
+                                        <div class="card-body">
+
+                                            <h4 style="font-weight: bolder; font-size: 1.1rem;" class="display-4">Batch
+                                                Name EVS 6 F </h4>
+
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <img class="img-profile rounded-circle" src="img/undraw_profile.svg" style="width:7%">
+                                                    <span style="  font-size: 18px; margin-left: 20px;"> Ankit Mishra</span><i class="fa fa-edit" style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12"
+                                                    style=" font-weight: bolder; font-size: 1.02rem; margin-top: 10px;">
+                                                    <i class="fa fa-user" style="float: left;" aria-hidden="true"></i>
+                                                    <span style="text-align: initial; margin-left: 20px; "
+                                                        class="align-middle"> 90 Students </span><i
+                                                        class="fa fa-user-plus " style="float:right;"></i>
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <h6 class="display-6"
+                                                        style="margin-left: 10px; margin-top: 10px; font-weight: normal;">
+                                                        Upcomming class <br>Thu, 25th May,12:00 PM</h6>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="margin-top: 20px;">
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle small"
+                                                        style=" background-color:skyblue; border-color: skyblue; font-weight: bold; width: 35px; height: 35px;">
+                                                        Mo</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        Tu</div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">We</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color:skyblue; border-color: skyblue;width: 35px; height: 35px;">
+                                                        <span style="color: slategrey; text-align:center;">Th</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237);width: 35px; height: 35px;">
+                                                        <span style="color: slategrey;">Fr</span></div>
+                                                </div>
+                                                <div class=col-sm-2>
+
+                                                    <div class="badge badge-pill badge-outline-primary rounded-circle"
+                                                        style=" background-color: rgb(245, 237, 237); border-color: rgb(245, 237, 237); width: 35px; height: 35px;">
+                                                        <span style="color: slategrey; text-align: center;">Sa</span></div>
+                                                </div>
+
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <button class="btn btn-primary align-middle" type="button" data-toggle="collapse"
+                        data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3"
+                        onclick="myFunction3()" onclick="changeColor()" id="myBtn3"
+                        style="align-items: center; margin-left: 40%; background-color: purple; border-color: purple;">
+                        Show More
+                    </button>
+                </div>
+
+                            <!-- End of Main Content -->
+
+                            <!-- Footer -->
+                            <footer class="sticky-footer bg-white">
+                                <div class="container my-auto">
+                                    <div class="copyright text-center my-auto">
+                                        <span>Copyright &copy; Your Website 2020</span>
+                                    </div>
+                                </div>
+                            </footer>
+                            <!-- End of Footer -->
+
+                        </div>
+                        <!-- End of Content Wrapper -->
+
+                    </div>
+                    <!-- End of Page Wrapper -->
+
+                    <!-- Scroll to Top Button-->
+                    <a class="scroll-to-top rounded" href="#page-top">
+                        <i class="fas fa-angle-up"></i>
+                    </a>
+
+                    <!-- Logout Modal-->
+                    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">Select "Logout" below if you are ready to end your current
+                                    session.</div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                                    <a class="btn btn-primary" href="login.html">Logout</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bootstrap core JavaScript-->
+                    <script src="vendor/jquery/jquery.min.js"></script>
+                    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+                    <!-- Core plugin JavaScript-->
+                    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+                    <!-- Custom scripts for all pages-->
+                    <script src="js/sb-admin-2.min.js"></script>
+
+                    <!-- Page level plugins -->
+                    <script src="vendor/chart.js/Chart.min.js"></script>
+
+                    <!-- Page level custom scripts -->
+                    <script src="js/demo/chart-area-demo.js"></script>
+                    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>

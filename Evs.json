@@ -1,0 +1,39 @@
+[
+    {
+        "Batch Name":"EVS 6 A",
+        "students":"30",
+        "Date":"Thu 25th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"EVS 6 B",
+        "students":"40",
+        "Date":"Thu 25th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"EVS 6 C",
+        "students":"50",
+        "Date":"Thu 25th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"EVS 6 D",
+        "students":"70",
+        "Date":"Thu 26th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"EVS 6 E",
+        "students":"80",
+        "Date":"Thu 27th MAy, 2020"
+
+    },
+    {
+        "Batch Name":"EVS 6 F",
+        "students":"90",
+        "Date":"Thu 25th MAy, 2020"
+
+    }
+
+]
